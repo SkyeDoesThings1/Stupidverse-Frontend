@@ -1,0 +1,19 @@
+#nav-menu {
+  position: fixed;
+  top: 1;
+  left: 0;
+  width: 160px;
+  height: 720px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff),
+    to(#fff5f5)
+  );
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 0 50px 50px 0;
+  z-index: 20;
+  user-select: none;
+  overflow-y: clip;
+}

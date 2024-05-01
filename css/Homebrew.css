@@ -1,0 +1,17 @@
+html {
+  background-image: url('https://raw.githubusercontent.com/SkyeDoesThings1/skyedoesthings1.github.io/main/background(5).png');
+}
+
+header {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  background: #ff8af1;
+  padding-left: 0px;
+}
+
+#banner-logo {
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

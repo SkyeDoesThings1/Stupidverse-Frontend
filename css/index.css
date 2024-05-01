@@ -1,0 +1,112 @@
+/* Set background image for HTML */
+html {
+  background-image: url('https://raw.githubusercontent.com/SkyeDoesThings1/skyedoesthings1.github.io/main/background(5).png');
+}
+
+/* Style header */
+header {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6); /* Add box shadow */
+  border-radius: 25px; /* Add border radius */
+  background: #ff8af1; /* Set background color */
+  padding-left: 0px; /* Adjust left padding */
+}
+
+/* Style banner logo */
+#banner-logo {
+  width: 10%; /* Set width */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for pinned and wiiu elements */
+#pinned,
+#wiiu {
+  margin-right: 256px; /* Adjust right margin */
+  padding-left: 250px; /* Adjust left padding */
+  font-family: 'Helvetica', 'Arial', sans-serif; /* Set font family */
+}
+
+/* Style for foldable-handheld element */
+/* Note: Emoji in selector might cause compatibility issues in older browsers */
+#foldable-handheld💀 {
+  padding-left: 250px; /* Adjust left padding */
+  font-family: 'Helvetica', 'Arial', sans-serif; /* Set font family */
+  margin-right: 256px; /* Adjust right margin */
+}
+
+/* Adjust layout for community container */
+.community-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute space between sections */
+}
+
+/* Style for community sections */
+.community-section {
+  width: 256px; /* Set width */
+  height: 256px; /* Set height */
+  text-align: center; /* Center content horizontally */
+  margin: 0 128px; /* Add margin for spacing between sections */
+  font-family: 'Helvetica', 'Arial', sans-serif; /* Set font family */
+}
+
+/* Adjust layout for pinned container */
+#pinned {
+  display: inline-block; /* Use inline-block */
+}
+
+/* Style for h2 element inside pinned */
+#pinned h2 {
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding */
+}
+
+/* Adjust margin-top for nav menu */
+#nav-menu {
+  margin-top: 100px; /* Move menu down */
+}
+
+/* Remove border around community sections */
+.community-section {
+  border: none;
+}
+
+/* Style for images */
+img:not(#banner-logo) {
+  border-radius: 15%; /* Add border radius */
+  width: 96px; /* Set width */
+  height: 96px; /* Set height */
+  -webkit-filter: brightness(100%); /* Add webkit filter */
+  filter: brightness(100%); /* Add standard filter */
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+
+/* Hover effect for images */
+img:not(#banner-logo):hover {
+  border-radius: 15%; /* Add border radius */
+  width: 96px; /* Set width */
+  height: 96px; /* Set height */
+  -webkit-filter: brightness(70%); /* Add webkit filter */
+  filter: brightness(70%); /* Add standard filter */
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+
+/* Initially hide community descriptions */
+.img__description {
+  display: none;
+}
+
+/* Show community description when hovering over Homebrew image */
+#Homebrew:hover + .img__description {
+  display: block;
+}
+
+/* Show community description when hovering over Splatoon image */
+#Splatoon:hover + .img__description {
+  display: block;
+}
+
+/* Show community description when hovering over Splatoon image */
+#NintendoLand:hover + .img__description {
+  display: block;
+}
